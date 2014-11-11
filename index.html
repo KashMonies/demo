@@ -21,13 +21,12 @@
       var initialize = function() {
         //set some default options
         var mapOptions = {
-          zoom: 19, //very close
+          zoom: 10, //very close
           center: new google.maps.LatLng(40.7293, -73.9906) //cooper union
         };
 
         //create a new map, and have it populate the #map-canvas html element
-        var map = new google.maps.Map(document.getElementById('map-canvas'),
-            mapOptions);
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
       }
 
